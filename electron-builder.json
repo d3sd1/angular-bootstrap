@@ -1,0 +1,40 @@
+{
+  "productName": "tmp_file",
+  "directories": {
+    "output": "tmp/"
+  },
+    "files": [
+        "**/*",
+        "!*.ts",
+        "!*.code-workspace",
+        "!LICENSE.md",
+        "!package.json",
+        "!package-lock.json",
+        "!src/",
+        "!e2e/",
+        "!hooks/",
+        "!.angular-cli.json",
+        "!_config.yml",
+        "!karma.conf.js",
+        "!tsconfig.json",
+        "!tslint.json"
+    ],
+  "win": {
+    "icon": "tmp/icons",
+    "target": [
+      "portable"
+    ]
+  },
+  "mac": {
+    "icon": "tmp/icons",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "tmp/icons",
+    "target": [
+      "AppImage"
+    ]
+  }
+}
